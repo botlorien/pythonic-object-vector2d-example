@@ -4,6 +4,7 @@ import math
 
 class Vector2d:
     __match_args__ = ('x', 'y')
+    __slots__ = ('__x', '__y')
 
     typecode = 'd'
 
